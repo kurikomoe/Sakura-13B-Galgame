@@ -1,7 +1,9 @@
 --find-links https://download.pytorch.org/whl/cu118/torch_stable.html
-torch
+torch>=2.1.0
 transformers==4.33.2
 auto-gptq
 sentencepiece
 bitsandbytes
 xformers
+scipy
+numpy
